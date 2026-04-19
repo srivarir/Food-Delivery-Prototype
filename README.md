@@ -18,8 +18,8 @@ A simple food delivery app prototype inspired by platforms like Swiggy and Zomat
 
 Add your screenshots in a folder named `screenshots` and use:
 
-![Home Screen](screenshots/home.png)  
-![Menu Screen](screenshots/menu.png)
+![Home Screen](home.png)  
+![Cart Screen](cart.png)
 
 ## 📂 Project Structure
 
