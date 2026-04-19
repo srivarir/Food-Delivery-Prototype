@@ -1,0 +1,75 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Foodie</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav-wrapper">
+    <div class="logo"><a href="index.html">Foodie</a></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="restaurants.html">Restaurants</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html" class="active btn-outline">Login</a>
+    </nav>
+  </div>
+</header>
+
+<!-- AUTH -->
+<section class="auth-section">
+  <div class="auth-card">
+    <div class="auth-toggle">
+      <button id="loginBtn" class="active">Login</button>
+      <button id="signupBtn">Signup</button>
+    </div>
+
+    <!-- LOGIN -->
+    <form id="loginForm" class="auth-form active">
+      <h2>Welcome Back</h2>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit" class="btn-primary full">Login</button>
+    </form>
+
+    <!-- SIGNUP -->
+    <form id="signupForm" class="auth-form">
+      <h2>Create Account</h2>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password (min 6 chars)" required>
+      <button type="submit" class="btn-primary full">Signup</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Foodie</h3>
+      <p>Delicious food delivered to your doorstep.</p>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Foodie</p>
+</footer>
+
+<script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!-- cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart | Foodie</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav-wrapper">
+    <div class="logo"><a href="index.html">Foodie</a></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="restaurants.html">Restaurants</a>
+      <a href="cart.html" class="active">Cart</a>
+      <a href="login.html" class="btn-outline">Login</a>
+    </nav>
+  </div>
+</header>
+
+<!-- CART -->
+<section class="section">
+  <div class="container cart-layout">
+    <div class="cart-items">
+      <h2>Your Cart</h2>
+      <div id="cartList"></div>
+    </div>
+
+    <div class="cart-summary">
+      <h3>Summary</h3>
+      <div class="summary-row">
+        <span>Total</span>
+        <strong>₹<span id="cartTotal">0</span></strong>
+      </div>
+      <button class="btn-primary full">Checkout</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Foodie</h3>
+      <p>Delicious food delivered to your doorstep.</p>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Foodie</p>
+</footer>
+
+<script src="js/cart.js"></script>
+</body>
+</html>

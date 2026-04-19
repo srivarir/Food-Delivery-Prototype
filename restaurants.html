@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurants | Foodie</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo">Foodie</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="restaurants.html" class="active">Restaurants</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html" class="btn-outline">Login</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section light-bg">
+  <div class="container">
+    <h2 class="section-title">All Restaurants</h2>
+
+    <div class="filter-bar">
+      <input id="searchInput" placeholder="Search restaurants">
+      <select id="ratingFilter">
+        <option value="">Rating</option>
+        <option value="4.5">4.5+</option>
+        <option value="4">4+</option>
+      </select>
+      <select id="priceFilter">
+        <option value="">Price</option>
+        <option value="₹₹">₹₹</option>
+        <option value="₹₹₹">₹₹₹</option>
+      </select>
+      <select id="timeFilter">
+        <option value="">Time</option>
+        <option value="20">Under 20</option>
+        <option value="30">Under 30</option>
+      </select>
+    </div>
+
+    <div class="card-grid">
+
+      <div class="restaurant-card"
+        data-name="burger hub"
+        data-rating="4.5"
+        data-price="₹₹"
+        data-time="30"
+        onclick="location.href='restaurant.html?rest=burger'">
+        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&auto=format&fit=crop">
+        <div class="card-body"><h3>Burger Hub</h3></div>
+      </div>
+
+      <div class="restaurant-card"
+        data-name="spice villa"
+        data-rating="4.7"
+        data-price="₹₹₹"
+        data-time="25"
+        onclick="location.href='restaurant.html?rest=indian'">
+        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&auto=format&fit=crop">
+        <div class="card-body"><h3>Spice Villa</h3></div>
+      </div>
+
+      <div class="restaurant-card"
+        data-name="pizza corner"
+        data-rating="4.3"
+        data-price="₹₹"
+        data-time="20"
+        onclick="location.href='restaurant.html?rest=pizza'">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop">
+        <div class="card-body"><h3>Pizza Corner</h3></div>
+      </div>
+
+      <div class="restaurant-card"
+        data-name="healthy bowl"
+        data-rating="4.6"
+        data-price="₹₹"
+        data-time="35"
+        onclick="location.href='restaurant.html?rest=bowl'">
+        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&auto=format&fit=crop">
+        <div class="card-body"><h3>Healthy Bowl</h3></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script src="js/restaurants.js"></script>
+</body>
+</html>

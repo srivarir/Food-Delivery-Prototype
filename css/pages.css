@@ -1,0 +1,182 @@
+/* ---------- HERO ---------- */
+.hero {
+  background: linear-gradient(135deg, #ff4d00, #ff8c42);
+  padding: 5rem 1.5rem;
+  color: white;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  animation: fadeUp 0.8s ease;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.search-box input {
+  flex: 1;
+  padding: 1rem;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  background: #ff4d00;
+  color: white;
+  padding: 0 1.5rem;
+  font-weight: 500;
+}
+
+/* ---------- SECTIONS ---------- */
+.section {
+  margin-top: 3rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header span {
+  color: #777;
+}
+
+/* ---------- CUISINES ---------- */
+.cuisine-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  overflow-x: auto;
+}
+
+.cuisine {
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  white-space: nowrap;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.cuisine:hover {
+  transform: translateY(-5px);
+}
+
+/* ---------- APP CTA ---------- */
+.app-cta {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  margin-top: 4rem;
+}
+
+.app-buttons button {
+  margin: 0.5rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
+}
+
+.android {
+  background: #34a853;
+  color: white;
+}
+
+.ios {
+  background: white;
+  color: black;
+}
+
+/* ---------- ANIMATION ---------- */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.center {
+  text-align: center;
+}
+/* ---------- LIST PAGE HERO ---------- */
+.list-hero {
+  background: #fff3ec;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  animation: fadeUp 0.6s ease;
+}
+
+.list-hero h1 {
+  font-size: 2rem;
+}
+
+.list-hero p {
+  color: #666;
+  margin: 0.5rem 0 1.2rem;
+}
+
+.list-hero input {
+  padding: 0.9rem 1.2rem;
+  width: 320px;
+  max-width: 90%;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* ---------- FILTERS ---------- */
+.filters {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+  overflow-x: auto;
+}
+
+.filter {
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  background: white;
+  border: 1px solid #eee;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.filter:hover {
+  transform: translateY(-2px);
+}
+
+.filter.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+/* ---------- EMPTY STATE ---------- */
+.empty-state {
+  text-align: center;
+  margin-top: 4rem;
+  color: #777;
+}

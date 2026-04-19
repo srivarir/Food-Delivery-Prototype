@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foodie | Order Food Online</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo">Foodie</a>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="restaurants.html">Restaurants</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html" class="btn-outline">Login</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h1>Order food from your favorite restaurants</h1>
+      <p>Fresh meals, fast delivery, and the best restaurants near you.</p>
+      <div class="location-box">
+        <input type="text" placeholder="Enter your delivery location"/>
+        <button class="btn-primary">Find Food</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=900&auto=format&fit=crop">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Featured Restaurants</h2>
+
+    <div class="card-grid">
+
+      <div class="restaurant-card"
+        onclick="location.href='restaurant.html?rest=burger'">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&auto=format&fit=crop">
+        <div class="card-body">
+          <h3>Burger Hub</h3>
+          <p>🍔 Fast Food • ₹₹</p>
+          <div class="card-info"><span>⭐ 4.5</span><span>30 mins</span></div>
+        </div>
+      </div>
+
+      <div class="restaurant-card"
+        onclick="location.href='restaurant.html?rest=indian'">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&auto=format&fit=crop">
+        <div class="card-body">
+          <h3>Spice Villa</h3>
+          <p>🍛 Indian • ₹₹₹</p>
+          <div class="card-info"><span>⭐ 4.7</span><span>25 mins</span></div>
+        </div>
+      </div>
+
+      <div class="restaurant-card"
+        onclick="location.href='restaurant.html?rest=pizza'">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop">
+        <div class="card-body">
+          <h3>Pizza Corner</h3>
+          <p>🍕 Italian • ₹₹</p>
+          <div class="card-info"><span>⭐ 4.3</span><span>20 mins</span></div>
+        </div>
+      </div>
+
+      <div class="restaurant-card"
+        onclick="location.href='restaurant.html?rest=bowl'">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&auto=format&fit=crop">
+        <div class="card-body">
+          <h3>Healthy Bowl</h3>
+          <p>🥗 Healthy • ₹₹</p>
+          <div class="card-info"><span>⭐ 4.6</span><span>35 mins</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
