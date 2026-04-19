@@ -12,7 +12,7 @@ A simple food delivery app prototype inspired by platforms like Swiggy and Zomat
 
 ## 🛠️ Tech Stack
 
-- html, css, javascript
+- HTML, CSS, JavaScript, JSON
 
 ## 📸 Screenshots
 
