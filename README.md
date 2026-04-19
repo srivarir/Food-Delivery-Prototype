@@ -16,8 +16,6 @@ A simple food delivery app prototype inspired by platforms like Swiggy and Zomat
 
 ## 📸 Screenshots
 
-Add your screenshots in a folder named `screenshots` and use:
-
 ![Home Screen](home.png)  
 ![Cart Screen](cart.png)
 
